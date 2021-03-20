@@ -1,0 +1,7 @@
+[package]
+name = "LeanErrorLocation"
+version = "0.1"
+lean_version = "leanprover/lean4:nightly"
+
+[dependencies]
+AssertCmd = {git = "https://github.com/pnwamk/lean4-assert-command", rev = "483483c9afcc1f946f7254bae56a8a212eba66c9"}
